@@ -1,0 +1,1 @@
+@"C:\Apps\test django\Django-ecommerce\env\Scripts\python.exe" "C:\Apps\test django\Django-ecommerce\env\Scripts\markdown_py" %*
