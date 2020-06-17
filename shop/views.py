@@ -14,6 +14,9 @@ from .models import Category, Product
 #         return Product.objects.filter(created__lte=timezone.now()
 #         ).order_by('-created')[:5]
 
+# Create your views here.
+def home(request):
+    return render(request, 'shop/home.html')
 
 
 def product_list(request, category_slug=None):

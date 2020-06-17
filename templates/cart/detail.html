@@ -42,7 +42,7 @@ Your shopping cart
                                 <td class="product-name">
                                     <h2 class="h5 text-black">{{ product.name }}</h2>
                                 </td>
-                                <td>${{ item.price }}</td>
+                                <td>₹{{ item.price }}</td>
                                 <td>
                                     <div class="input-group mb-3" style="max-width: 120px;">
                                         <div class="input-group-prepend">
@@ -56,7 +56,7 @@ Your shopping cart
                                         </div>
                                     </div>
                                 </td>
-                                <td>${{ item.total_price }}</td>
+                                <td>₹{{ item.total_price }}</td>
                                 <td><a href="{% url "cart:cart_remove" product.id %}"
                                         class="btn btn-primary btn-sm">X</a></td>
                             </tr>
